@@ -1,7 +1,7 @@
-# sqlalchemy-challenge
- A climate analysis on holiday vacation in Honolulu, Hawaii to help with trip planning
+# A climate analysis on holiday vacation in Honolulu, Hawaii to help with trip planning
  
- 
+ <img width="602" alt="Screenshot 2023-01-21 at 6 56 16 AM" src="https://user-images.githubusercontent.com/106120403/213865751-a9896f2d-d777-4d87-bbd9-2aa3a50b903a.png">
+
 Summary: Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
 
 Part 1: Analyze and Explore the Climate Data
@@ -19,8 +19,11 @@ Precipitation Analysis:
 4. Load the query results into a Pandas DataFrame, and set the index to the "date" column.
 5. Sort the DataFrame values by "date".
 6. Plot the results by using the DataFrame plot method, as the following image shows:
+
 ![Precipitation_Plot](https://user-images.githubusercontent.com/106120403/212542524-02f28dfe-0c07-40ba-bba5-cdfa2a835006.png)
+
 7. Use Pandas to print the summary statistics for the precipitation data.
+
 
 Station Analysis:
 1. Design a query to calculate the total number of stations in the dataset.
@@ -32,6 +35,7 @@ Station Analysis:
   Filter by the station that has the greatest number of observations.
   Query the previous 12 months of TOBS data for that station.
   Plot the results as a histogram with bins=12, as the following image shows:
+  
 ![station_Plot](https://user-images.githubusercontent.com/106120403/212542534-534a2474-8ec3-4747-8c67-1733981470a0.png)
 
 Part 2: Design Your Climate App
